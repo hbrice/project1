@@ -1,27 +1,28 @@
 Instructions for installing Ubuntu (Server):
 
-1. Select VDI
-2. Select Language "English"
-3. Select "English" again
-4. Select country "United States"
-5. Dectect Keyboard? Select "yes"
-6. Press the keys as instructed
-7. To determine your keyboard type, if you have $ symbol press it. 
-
+Select "English"
+Select "Install Ubuntu Server"
+Select Language "English"
+Select "English" again
+Select country "United States"
+Dectect Keyboard? Select "yes"
+Press the keys as instructed
+To determine your keyboard type, if you have $ symbol press it. 
+Keyboard detection complete: Select "continue"
 Setup:
-8. Type a hostname "foo"
-9. Type a username "bar"
-10. Type account name "team1"
-11. Type a password "..."
-12. Re-enter the same password
-13. Encrypt files? Select "no"
-14. Partition: Select "Guided Use Entire Disk"
-15. Write choice? Select "yes"
+Type a hostname "foo"
+Type a username "bar"
+Type account name "team1"
+Type a password "..."
+Re-enter the same password
+Encrypt files? Select "no"
+Partition: Select "Guided Use Entire Disk"
+Write choice? Select "yes"
 
 -Now it installs base system-
-16. Config package manage? Leave blank, Select "continue"
-17. Updates? Select "No auto updates"
-18. Software selection? Select "open ssh server"
-19. Install GRUB boot? Select "no"
-20. Type "/dev/sda", Select "continue"
-21. Select "Finish"
+Config package manage? Leave blank, Select "continue"
+Updates? Select "No auto updates"
+Software selection? Select "open ssh server"
+Install GRUB boot? Select "no"
+Type "/dev/sda", Select "continue"
+Select "Finish"
