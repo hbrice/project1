@@ -3,6 +3,7 @@ Instructions for installing Ubuntu (Server):
 Select "English"
 Select "Install Ubuntu Server"
 Select Language "English"
+
 Select "English" again
 Select country "United States"
 Dectect Keyboard? Select "yes"
@@ -26,3 +27,7 @@ Software selection? Select "open ssh server"
 Install GRUB boot? Select "no"
 Type "/dev/sda", Select "continue"
 Select "Finish"
+
+Configure the network:
+Please enter the IP address: 128.223.203.20
+hostname: "HDW"
