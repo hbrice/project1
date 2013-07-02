@@ -28,7 +28,7 @@ hostname: "HDW"
 Set up users and passwords:
 Enter full name for the new user: "Holly"
 Select Username for your account: "holly123"
-Enter a password "xxxxxxxx"
+Enter a password "xxxxxxx" //pass123
 Re-enter the password
 Encrypt home directory? "no"
 
@@ -54,5 +54,7 @@ How do you want to manage updates? Select "No auto updates", click "continue"
 Software selection? Select "open ssh server", click "continue"
 Install GRUB boot? Select "no"
 Type "/dev/sda", Select "continue"
+Remove cd and reboot.
 Select "Finish"
 
+IT WORKED!
