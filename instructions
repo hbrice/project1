@@ -57,4 +57,5 @@ Type "/dev/sda", Select "continue"
 Remove cd and reboot.
 Select "Finish"
 
+-Remember to change boot order when done!
 IT WORKED!
