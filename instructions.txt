@@ -3,6 +3,12 @@ Instructions for installing Ubuntu (Server):
 * Created by Holly, Dave, and Will
 */
 
+Burn Ubuntu Server 12.04 to DVD / CD / USB Key
+
+insert media into computer. 
+
+Check boot options in BIOS
+
 //A gray screen appears with a bunch of languages//
 Select "English"
 Select "Install Ubuntu Server"
