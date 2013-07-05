@@ -40,8 +40,7 @@ Then there will be another screen asking for the netmask number
 enter: 255.255.255.0
 Gateway: 128.223.203.1.
 nameserver: 128.223.32.36
-hostname: internal - "pong"
-hostname: external -  "www.lavedhillyowl.com"
+hostname: "pong"
 ---//
 
 ----[ SET UP USERS AND PASSWORDS ]----
