@@ -1,4 +1,4 @@
-Instructions for installing Ubuntu (Server):
+Instructions for installing Ubuntu Server 12.04:
 /**
 * Created by Holly, Dave, and Will
 */
@@ -7,10 +7,13 @@ Burn Ubuntu Server 12.04 to DVD / CD / USB Key
 
 insert media into computer. 
 
-Check boot options in BIOS
+Check boot options in BIOS -> Make CD/USB/DVD DRIVE boot first.
 
 //A gray screen appears with a bunch of languages//
+----[ SELECT LANGUAGE ]----
 Select "English"
+Select "Check disc for defects"
+If passes continue, else burn another disk or ask an adult for help
 Select "Install Ubuntu Server"
 Select Language "English"
 
@@ -23,46 +26,64 @@ To determine your keyboard type, if you have $ symbol press it.
 //our keyboard was "us"
 Keyboard detection complete: Select "continue"
 
-//--- I SKIPPED THIS PART
-Configure the network:
+A screen comes up with 
+
+----[ CONFIGURING THE NETWORK ]----
+then it will say
+"Network auto configuration failed"
+"Your network is probably not using the DHCP protocol. Alternatively, the DHCP server may be slow
+or some network hardware is not working properly."
 Select "continue" to configure the network
 Select "Configure network manually"
-Enter the IP address: 128.223.203.xx
-hostname: "HDW"
+Enter the IP address: 128.223.203.20
+Then there will be another screen asking for the netmask number
+enter: 255.255.255.0
+Gateway: 128.223.203.1.
+nameserver: 128.223.32.36
+hostname: internal - "pong"
+hostname: external -  "www.lavedhillyowl.com"
 ---//
 
-Set up users and passwords:
-Enter full name for the new user: "Holly"
-Select Username for your account: "holly123"
-Enter a password "xxxxxxx" //pass123
+----[ SET UP USERS AND PASSWORDS ]----
+Enter full name for the new user: "DaveHollyWill"
+Select Username for your account: "dhw"
+Enter a password "******" //qead13
 Re-enter the password
 Encrypt home directory? "no"
+will try to setup the clock but will fail since it doesn't have network access yet
+select time zone
 
-//---
-Setup:
-Type a hostname "foo"
-Type a username "bar"
-Type account name "team1"
-Type a password "..."
-Re-enter the same password
----//
-
-Encrypt files? Select "no"
-Partition disks:
+----[ PARTITION DISKS ]----
 Select "Guided Use Entire Disk"
 Select disk to partition: "SCSI1 (0,0,0) (sda) -250.1 GB ATA TOSHIBA MK2561GS
 Write changes to disk? Select "yes"
-
+Choose default amount (249.23 for example) for space
 ---Now it installs base system---
 
-Configuring taskel:
+----[ CONFIGURE THE PACKAGE MANAGER ]----
+a screen will ask about an HTTP Proxy, just press continue without entering anything
+
+will then 
+----[ CONFIGURING APT ]----
+will then run 
+----[ CONFIGURING SOFTWARE ]----
+then 
+----[ CONFIGURING TASKSEL ]----
 How do you want to manage updates? Select "No auto updates", click "continue"
-Software selection? Select "open ssh server", click "continue"
-Install GRUB boot? Select "no"
+
+----[ SOFTWARE SELECTION ]----
+ Select "open ssh server", click "continue"
+
+----[ Install GRUB boot ]----
+ Select "YES"
+
+---[ FINISH INSTALLATION ]----
+Select option to restart and remove disk
+
 Type "/dev/sda", Select "continue"
+
 Remove cd and reboot.
 Select "Finish"
 
 -Remember to change boot order when done!
 IT WORKED!
-Holly, remember two lines ago when it said to change boot order?...
